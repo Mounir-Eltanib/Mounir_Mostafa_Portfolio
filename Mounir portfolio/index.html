@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mounir Mostafa — Computer and Information student interested in AI, Machine Learning and Backend Development.">
+  <meta name="theme-color" content="#07111e">
+  <title>Mounir Mostafa | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="profile.jpeg" aria-label="Mounir home">Mounir Mostafa</a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow"><span class="status-dot"></span> Welcome to my portfolio</p>
+        <h1>Hi, I'm <span>Mounir Mostafa</span></h1>
+        <h2>Computer and Information Student</h2>
+        <p class="hero-description">
+          I'm interested in Artificial Intelligence, Machine Learning and Backend Development.
+          I enjoy building practical projects and continuously improving my programming skills.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary">Explore My Projects</a>
+          <a href="assets/cv.pdf" download="Mounir-Mostafa-CV.pdf" class="btn secondary">Download CV ↓</a>
+        </div>
+        <div class="social-links" aria-label="Social profiles">
+          <a href="https://github.com/Mounir-Eltanib" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/mounir-mostafa-28417938a" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          <a href="https://instagram.com/mounir.mostafa.18" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+          <a href="https://www.facebook.com/mounir.mostafa.269217" target="_blank" rel="noopener noreferrer">Facebook ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-image-wrap">
+        <div class="image-glow"></div>
+        <img class="profile-image" src="assets/profile.jpeg" alt="Mounir Mostafa"
+             onerror="this.style.display='none'; document.getElementById('profileFallback').style.display='grid';">
+        <div class="profile-fallback" id="profileFallback" aria-label="Profile image placeholder">MM</div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading">
+        <p class="section-label">MY WORK</p>
+        <h2>Featured <span>Projects</span></h2>
+        <p>Selected projects and practical programming work.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <p class="project-number">01 / MACHINE LEARNING</p>
+          <h3>House Price Prediction</h3>
+          <p>Prepared a housing dataset, handled missing values, engineered features and treated price outliers. Built and evaluated regression pipelines.</p>
+          <div class="tags"><span>Python</span><span>Pandas</span><span>Scikit-learn</span><span>Random Forest</span></div>
+          <a class="project-link" href="https://github.com/Mounir-Eltanib" target="_blank" rel="noopener noreferrer">Find my work on GitHub ↗</a>
+        </article>
+
+        <article class="project-card">
+          <p class="project-number">02 / CLASSIFICATION</p>
+          <h3>Titanic Survival Prediction</h3>
+          <p>Prepared passenger data for binary classification, handled missing values, encoded categorical features and explored family-size feature engineering.</p>
+          <div class="tags"><span>Python</span><span>Pandas</span><span>Scikit-learn</span><span>Kaggle</span></div>
+          <a class="project-link" href="https://github.com/Mounir-Eltanib" target="_blank" rel="noopener noreferrer">Find my work on GitHub ↗</a>
+        </article>
+
+        <article class="project-card">
+          <p class="project-number">03 / C++</p>
+          <h3>C++ Programming Exercises</h3>
+          <p>Small programming exercises including a calculator, array maximum/minimum finder, even/odd checker and student grade management.</p>
+          <div class="tags"><span>C++</span><span>Problem Solving</span><span>Algorithms</span></div>
+          <a class="project-link" href="https://github.com/Mounir-Eltanib" target="_blank" rel="noopener noreferrer">Find my work on GitHub ↗</a>
+        </article>
+      </div>
+      <p class="section-note">Project links currently lead to your GitHub profile. Replace them with individual repository links when you have the public URLs.</p>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="section-heading">
+        <p class="section-label">WHAT I WORK WITH</p>
+        <h2>My <span>Skills</span></h2>
+        <p>Technologies and foundations included in my current learning journey.</p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card"><span class="skill-icon">C++</span><h3>C++</h3><p>Programming fundamentals</p></article>
+        <article class="skill-card"><span class="skill-icon">Py</span><h3>Python</h3><p>Python fundamentals</p></article>
+        <article class="skill-card"><span class="skill-icon">NP</span><h3>NumPy &amp; Pandas</h3><p>Data preparation and analysis</p></article>
+        <article class="skill-card"><span class="skill-icon">ML</span><h3>Machine Learning</h3><p>Scikit-learn, regression and classification</p></article>
+        <article class="skill-card"><span class="skill-icon">TF</span><h3>TensorFlow / Keras</h3><p>Neural networks and CNN fundamentals</p></article>
+        <article class="skill-card"><span class="skill-icon">CS</span><h3>Core Computer Science</h3><p>Arrays, strings, functions, pointers and basic algorithms</p></article>
+      </div>
+    </section>
+
+    <section class="cv-section">
+      <p class="section-label">MY RESUME</p>
+      <h2>Want to know more <span>about me?</span></h2>
+      <p>Download my CV to learn more about my education, skills, projects and training.</p>
+      <a href="assets/cv.pdf" download="Mounir-Mostafa-CV.pdf" class="btn primary">Download My CV ↓</a>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-heading">
+        <p class="section-label">GET IN TOUCH</p>
+        <h2>Let's <span>Connect</span></h2>
+        <p>Feel free to reach out for opportunities, questions or collaboration.</p>
+      </div>
+      <a class="btn primary" href="mailto:mounirmostafa10@gmail.com">mounirmostafa10@gmail.com ↗</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Mounir Mostafa</p>
+    <p>Designed &amp; built with passion.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
